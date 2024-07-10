@@ -14,7 +14,7 @@ p {
 
 body {
     font-family: 'Inter', system-ui, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,14 +51,14 @@ body {
 }
 
 .name {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
     margin-bottom: 8px;
 }
 
 .residence {
     font-weight: 500;
-    color: rgb(183, 255, 0);
+    color: rgb(207, 255, 87);
 }
 
 .hobbies {
@@ -79,6 +79,12 @@ body {
     background-color: #333333;
     padding: 12px 0;
     border-radius: 8px;
+    transition: 0.1s;
+}
+
+.links a:hover {
+    background-color: #2e2e2e;
+    color:rgb(207, 255, 87);
 }
 
 
